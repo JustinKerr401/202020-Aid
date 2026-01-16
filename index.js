@@ -30,7 +30,7 @@ function shift(){
 }
 
 function countDown(startTime){
-    let endTime = startTime + 1200000   //20 minutes = 1200000
+    let endTime = startTime + 10000   //20 minutes = 1200000
     let timer = setInterval(() => {
         let timeLeft = endTime - Date.now()
         if (timeLeft <= 0){
