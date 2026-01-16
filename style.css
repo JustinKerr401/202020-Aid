@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 50%)
+}
+
+p, ul{
+    font-size: 1.5rem;
+}
+
+p{
+    text-align: center;
+}
+
+#activator{
+    font-size: 4rem;
+    width: 80%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 70%);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#time{
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#breaks{
+    font-size: 3rem;
+    color: hsl(0, 0%, 20%);
+    font-style: italic;
+    margin-top: 4px;
+    margin-bottom: 100px;
+}
