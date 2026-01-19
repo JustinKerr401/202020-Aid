@@ -38,12 +38,14 @@ function countDown(startTime){
             timeDisplay.textContent = "00:00"
             state = 2
             shift()
+            document.title = `20/20/20 vision aid`;
         } else {
             let minutes = Math.floor(timeLeft / 60000)
             let seconds = Math.floor((timeLeft % 60000) / 1000)
             minutes = String(minutes).padStart(2, 0)
             seconds = String(seconds).padStart(2, 0)
             timeDisplay.textContent = `${minutes}:${seconds}`
+            document.title = `${minutes}:${seconds} - 20/20/20 vision aid`;
         }
     }, 10)
 }
